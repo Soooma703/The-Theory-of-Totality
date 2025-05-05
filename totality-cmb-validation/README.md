@@ -3,7 +3,7 @@
 
 This repository contains the official implementation of the results reported in:
 
-**Section 5.1: Empirical Validation I: CMB High-$\ell$ Structure**  
+**Section 4 Empirical Validation I: CMB High-ℓ Structure**  
 from the Totality Field Theory paper.
 
 It compares the ΛCDM model with the Totality model using Planck 2018 CMB TT power spectrum data, employing harmonic modulations and information-theoretic model comparison (χ², AIC, BIC, p-value).
