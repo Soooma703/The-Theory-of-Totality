@@ -19,7 +19,7 @@ It compares the ΛCDM model with the Totality model using Planck 2018 CMB TT pow
 The Planck 2018 CMB TT power spectrum data used in this project is publicly available from the ESA Planck Legacy Archive:
 
 - [Main Archive](https://pla.esac.esa.int/#cosmology)
-- [Direct file link]([https://pla.esac.esa.int/pla/slave/API/8.0/cosmology/CMB_spectrum/COM_PowerSpect_CMB-TT-full_R3.01.txt](http://pla.esac.esa.int/pla/aio/product-action?COSMOLOGY.FILE_ID=COM_PowerSpect_CMB-TT-full_R3.01.txt))
+- [Direct file link](http://pla.esac.esa.int/pla/aio/product-action?COSMOLOGY.FILE_ID=COM_PowerSpect_CMB-TT-full_R3.01.txt)
 
 File: `COM_PowerSpect_CMB-TT-full_R3.01.txt`
 
