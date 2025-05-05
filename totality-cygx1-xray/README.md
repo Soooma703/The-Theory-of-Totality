@@ -11,7 +11,7 @@ This repository contains code to validate the **Totality Field Theory** by:
 ## 🧪 What it Does
 
 - Numerically integrates:　∂²Ψ/∂Φ² − c² ∇²Ψ + λ Ψ³ = 0
-- Estimates the time-averaged amplitude fluctuation as:　ε = mean[ std(Ψ(t)) ]
+- Estimates the time-averaged amplitude fluctuation as:　ε = ϵ=mean[σ(Ψ(t))]
 - Uses this ε to construct a correction function:　α(E) = 1 + ε · sin(aE)
 - Optimizes the parameter `a` to **maximize the Pearson correlation** between the observed and modeled FFT power spectra.
 
