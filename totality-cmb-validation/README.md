@@ -10,7 +10,7 @@ It compares the ΛCDM model with the Totality model using Planck 2018 CMB TT pow
 
 ## 📂 Contents
 
-- `cmb_totality_fit.py`: Main Python script (N=1~5 fitting)
+- `cmb_tt_totality_allN_plot.py`: Main Python script (N=1~5 fitting)
 - `data/`: Planck power spectrum data
 - `outputs/`: Resulting plot image
 
