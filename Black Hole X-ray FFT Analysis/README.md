@@ -64,11 +64,20 @@ Once the data is converted, you can run the Totality Field Theory spectral valid
    Directly analyzes `.pha` or `.pi` spectral files using the TFT framework (recommended for Cygnus X-1, XTE J1550-564)
 
 These scripts will:
-1. Derive ε and a from the nonlinear wave simulation
-2. Apply the α(E) correction to the spectrum
-3. Compute FFT power spectra
-4. Perform statistical validation including Pearson correlation and bootstrap confidence intervals
-5. Generate ready-to-publish plots for scientific papers
+
+1. Simulate a nonlinear wave equation to estimate the fluctuation amplitude **ε** and dominant frequency parameter **a** from the theoretical dynamics of the Totality Field Ψ(X,Φ).
+2. Load real black hole X-ray spectral data from either converted CSV files or original `.pha` / `.pi` formats.
+3. Uniformly interpolate the energy channels and compute the observed FFT power spectrum.
+4. Apply the Totality Field correction model α(E) = 1 + ε · sin(aE) to the spectral data.
+5. Recompute the FFT power spectrum of the corrected spectrum and statistically compare it to the original using:
+   - **Pearson correlation coefficient**
+   - **Empirical p-value estimation using random noise trials**
+   - **Bootstrap resampling to calculate 95% confidence intervals**
+6. Test the sensitivity of the correlation to phase shifts in α(E) by scanning over a wide range of phase values and generating a diagnostic plot.
+7. Output publication-quality plots including:
+   - The comparison of observed vs. modeled FFT spectra
+   - The phase shift sensitivity curve confirming the deterministic structure predicted by the theory.
+
 
 ---
 
