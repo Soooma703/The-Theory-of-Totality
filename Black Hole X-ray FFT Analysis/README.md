@@ -62,6 +62,9 @@ Once the data is converted, you can run the Totality Field Theory spectral valid
 
 - `pha_analysis.py`  
    Directly analyzes `.pha` or `.pi` spectral files using the TFT framework (recommended for Cygnus X-1, XTE J1550-564)
+  
+- `energy_mapping_scan.py`  
+    Performs the Energy Mapping and Scale Fixing test (reproduces Figure 1 of the paper).
 
 These scripts will:
 
