@@ -32,7 +32,7 @@ This fully reproduces Figures 2-5 of the paper.
 
 ### 📂 2. Lambda Stability Scan
 
-Located in: [`TFT_Xray_LambdaScan/`](./TFT_Xray_LambdaScan/)
+Located in: [`TFT_Xray_LambdaScan/`](https://github.com/Soooma703/Totality_Field_Theory/tree/main/LambdaScan)
 
 This module reproduces **Appendix A** of the paper by:
 
