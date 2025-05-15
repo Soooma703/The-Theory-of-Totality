@@ -23,8 +23,8 @@ The X-ray spectrum of the black hole binary system **Cygnus X-1** used in this p
 
 - [Main Archive and Examples (XSPEC)](https://heasarc.gsfc.nasa.gov/xamin/)
 - [Cygnus X-1 (pha format)](https://heasarc.gsfc.nasa.gov/FTP/heao1/data//a2/spectra/a2_h3l_cygx1a_p.pha.Z)  File: `a2_h3l_cygx1a_p.pha`
-- [MAXI_J1820+070 (fits format)](https://heasarc.gsfc.nasa.gov/FTP/heao1/data//a2/spectra/a2_h3l_cygx1a_p.pha.Z)  File: `acisf20207N002_evt2.fits`
-- [XTEJ1550-564 (pi format)](https://heasarc.gsfc.nasa.gov/FTP/heao1/data//a2/spectra/a2_h3l_cygx1a_p.pha.Z)  File: `ad15606000s010102_1.pi`
+- [MAXI_J1820+070 (fits format)](https://heasarc.gsfc.nasa.gov/FTP/chandra/data/byobsid/7//20207/primary/acisf20207N002_evt2.fits.gz)  File: `acisf20207N002_evt2.fits`
+- [XTEJ1550-564 (pi format)](https://heasarc.gsfc.nasa.gov/FTP/asca/data/rev2//15606000/spectra/ad15606000s010102_1.pi.gz)  File: `ad15606000s010102_1.pi`
   
 
 
