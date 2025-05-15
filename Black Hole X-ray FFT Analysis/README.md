@@ -89,4 +89,4 @@ These scripts will:
 Install required packages:
 
 ```bash
-pip install -r requirements.txt
+pip install numpy matplotlib pandas scipy astropy
