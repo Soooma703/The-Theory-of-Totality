@@ -41,5 +41,3 @@ Install required packages:
 
 ```bash
 pip install -r requirements.txt
-python nonlinear_fit_and_xray_fft.py
-
