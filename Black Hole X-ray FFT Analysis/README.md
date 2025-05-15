@@ -22,9 +22,11 @@ This repository contains code to validate the **Totality Field Theory** by:
 The X-ray spectrum of the black hole binary system **Cygnus X-1** used in this project is publicly available from the **NASA HEASARC (High Energy Astrophysics Science Archive Research Center)** archive.
 
 - [Main Archive and Examples (XSPEC)](https://heasarc.gsfc.nasa.gov/xamin/)
-- [Direct file link (FITS format)](https://heasarc.gsfc.nasa.gov/FTP/heao1/data//a2/spectra/a2_h3l_cygx1a_p.pha.Z)
+- [Cygnus X-1 (FITS format)](https://heasarc.gsfc.nasa.gov/FTP/heao1/data//a2/spectra/a2_h3l_cygx1a_p.pha.Z)  File: `a2_h3l_cygx1a_p.pha`
+- [MAXI_J1820+070 (FITS format)](https://heasarc.gsfc.nasa.gov/FTP/heao1/data//a2/spectra/a2_h3l_cygx1a_p.pha.Z)  File: `acisf20207N002_evt2.fits`
+- [XTEJ1550-564 (FITS format)](https://heasarc.gsfc.nasa.gov/FTP/heao1/data//a2/spectra/a2_h3l_cygx1a_p.pha.Z)  File: `ad15606000s010102_1.pi`
+- 
 
-File: `a2_h3l_cygx1a_p.pha`
 
 This file contains energy-resolved photon count data, typically used for spectral fitting in high-energy astrophysics. It is based on RXTE (Rossi X-ray Timing Explorer) PCA observations of Cygnus X-1.
 
