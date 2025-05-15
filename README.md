@@ -12,7 +12,7 @@ The code is fully open source and aims to maximize transparency, reproducibility
 
 ### 📂 1. Black Hole X-ray FFT Analysis
 
-Located in: [`TFT_Xray_Analysis/`](./TFT_Xray_Analysis/)
+Located in: [`TFT_Xray_Analysis/`](https://github.com/Soooma703/Totality_Field_Theory/tree/main/Black%20Hole%20X-ray%20FFT%20Analysis)
 
 This module performs the **definitive spectral validation** of the TFT by:
 
