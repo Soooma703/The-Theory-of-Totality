@@ -31,4 +31,6 @@ This reproduces the theoretical procedure of the TFT paper (Appendix A).
 Install dependencies:
 ```bash
 pip install numpy matplotlib tqdm
+python lambda_scan.py
+
 
