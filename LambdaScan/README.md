@@ -24,6 +24,16 @@ This reproduces the theoretical procedure of the TFT paper (Appendix A).
 
 ---
 
+## 📁 Repository Structure
+
+```plaintext
+lambda_determination/
+├── lambda_scan.py   ← Coarse scan over wide range (λ ∈ [0.01, 1.0], Δλ = 0.0005)
+├── lambda_scan_highres.py  ← Precision scan around theoretical value (λ ∈ [0.06, 0.1], Δλ = 0.0001)
+├── README.md               ← This file
+
+---
+
 ## ▶️ How to Run
 
 Install dependencies:
