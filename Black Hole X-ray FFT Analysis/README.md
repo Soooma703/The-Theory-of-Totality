@@ -43,12 +43,12 @@ These files contain energy-resolved photon count data used for spectral analysis
 
 ### File Conversion Tools (`file conversion codes` folder)
 
-You can convert the original data files into analysis-ready CSV format using the following scripts:
+You can convert the original data files into analysis-ready CSV　or pha format using the following scripts:
 
 - `fits_to_csv.py`  
    Converts `.fits` files (e.g., `acisf20207N002_evt2.fits`) to CSV  
    
-- `pi_to_csv.py`  
+- `pi_to_pha.py`  
    Converts `.pi` or `.pha` files (e.g., `a2_h3l_cygx1a_p.pha`, `ad15606000s010102_1.pi`) to CSV  
 
 This step prepares the data for use in the main TFT analysis.
