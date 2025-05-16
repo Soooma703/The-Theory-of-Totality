@@ -56,7 +56,9 @@ You will need:
 
 ## 📜 Notes
 
-This repository was designed for maximum reproducibility for research and peer review purposes.  
+We welcome feedback and collaborative proposals.  
+Please note that as I am currently a fourth-year undergraduate student prioritizing graduation and graduate school admission, I may not be able to respond to all inquiries. However, I sincerely appreciate any feedback or thoughts you may share.
+  
 If you use this code, please cite the original paper:
 
 > Ohno (2025). The Totality Field Theory: Unifying Spacetime and Observation without Time.
