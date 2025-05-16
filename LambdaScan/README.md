@@ -32,6 +32,12 @@ lambda_determination/
 ├── lambda_scan_highres.py  ← Precision scan around theoretical value (λ ∈ [0.06, 0.1], Δλ = 0.0001)
 ├── README.md               ← This file
 ```
+### High-Resolution Scan (λ ∈ [0.060, 0.100], Δλ = 0.0001)
+
+This script performs a high-precision numerical scan around the theoretically predicted value λ = 0.0860 to verify its stability.  
+The global minimum is confirmed at λ = 0.08630, validating the theoretical selection made in the main simulation.
+
+This script is not used for fitting λ, but rather for confirming its uniqueness under energy conservation criteria.
 
 ---
 
