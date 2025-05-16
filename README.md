@@ -61,5 +61,7 @@ If you use this code, please cite the original paper:
 
 > Ohno (2025). The Totality Field Theory: Unifying Spacetime and Observation without Time.
 
-We welcome questions, feedback, or collaborative proposals.
+We welcome questions, feedback, or collaborative proposals.  
+📧 Contact: [soma.ono3@gmail.com]  
+🐦 Follow on X (Twitter): [https://x.com/TFT_founder](https://x.com/TFT_founder)
 
