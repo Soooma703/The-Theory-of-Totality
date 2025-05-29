@@ -87,7 +87,7 @@ According to **Totality Field Theory (TFT)**, persistent interference nodes are 
 
 ## 📜 License
 
-This repository is licensed under the [MIT License](LICENSE).  
+This repository is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).  
 You are free to use, modify, and distribute this code for academic or non-commercial purposes.
 
 
