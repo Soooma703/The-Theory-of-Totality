@@ -35,7 +35,7 @@ Each script corresponds to a simulation in different spatial dimensions. They sh
 - **Structure Analysis**:
   - Volume (cell count)
   - Energy (integrated amplitude squared)
-  - Fractal dimension estimate \( D_f = \log(V) / \log(\text{BoxSize}) \)
+  - Fractal dimension estimate D_f = log(V) / log(BoxSize)
 - **Visualization**: Automatically generates histograms of structure distributions.
 
 ---
@@ -53,9 +53,7 @@ python 3D.py
 Each simulation run will:
 
 1. Simulate 500 timesteps of nonlinear field evolution governed by:
-   \[
-   \frac{\partial^2 \Psi}{\partial \Phi^2} = c^2 \nabla^2 \Psi - \lambda \Psi^3
-   \]
+∂²Ψ/∂Φ² - c² ∇²Ψ + λ Ψ³ = 0
 2. Track and record the number of interference peaks (local maxima) at each timestep.
 3. Analyze the final timestep snapshot to extract:
    - **Total structure count** (disconnected regions with amplitude above threshold)
