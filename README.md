@@ -48,3 +48,17 @@ Runs a high-resolution 3D simulation at λ = 0.57 and performs detailed structur
 MIT License — Free for research and educational use with attribution.
 
 ---
+---
+
+## ✒️ Author & Contact
+
+This project is developed and maintained by the author of the **Totality Field Theory (TFT)** framework.
+
+For academic inquiries, collaborations, or questions, please contact:
+
+**Name**: [Souma Ohno]  
+**Email**: [soma.ono3@gmail.com]  
+**Affiliation**: Kyushu Institute of Technology *(formal affiliation only)*
+
+> **Note**: Although the author is formally affiliated with Kyushu Institute of Technology,  
+> this work is an entirely **independent theoretical project** conducted on a personal basis.
