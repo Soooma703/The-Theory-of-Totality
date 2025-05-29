@@ -60,9 +60,7 @@ Each simulation run will:
    - **Volume distribution** of each structure (in voxel units)
    - **Energy distribution** (sum of $\Psi^2$ per structure)
    - **Fractal dimension estimate**:
-     \[
-     D_f = \frac{\log(V)}{\log(\text{BoxSize})}
-     \]
+  　D_f = log(V) / log(BoxSize)
 4. Generate and save visualizations:
    - Histogram of structure volumes
    - Histogram of structure energies
