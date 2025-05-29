@@ -8,7 +8,7 @@ This repository contains numerical simulations of nonlinear wave dynamics across
 
 The primary objective is to investigate **dimensional dependence of structure formation** in nonlinear existence fields governed by a generalized wave equation:
 
-∂²Ψ/∂Φ² = c² ∇²Ψ − λ Ψ³
+∂²Ψ/∂Φ² - c² ∇²Ψ + λ Ψ³ = 0
 
 This system mimics core principles of TFT, where **space, time, matter, and even consciousness** are emergent from the evolving interference topology of the field $\Psi$.
 
