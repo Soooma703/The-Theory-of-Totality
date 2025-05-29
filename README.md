@@ -1,69 +1,50 @@
-# Totality Field Theory (TFT) - Computational Validation Package
+# Totality Field Theory Simulations and Analysis
 
-This repository contains the full computational framework to reproduce the key numerical validation results of the **Totality Field Theory (TFT)** as presented in:
-
-> Ohno (2025). The Totality Field Theory: Unifying Spacetime and Observation without Time.  
-
-The code is fully open source and aims to maximize transparency, reproducibility, and testability of the theoretical predictions.
+This repository contains simulation scripts and analysis tools for exploring structure formation in the nonlinear existence field Ψ(X, Φ), as proposed in Totality Field Theory (TFT).
 
 ---
 
-## 🧩 Project Structure
+## 🌀 Totality Field Dimensional Simulations (`1D.py`–`5D.py`)
 
-### 📂 1. Black Hole X-ray FFT Analysis
+Simulates nonlinear wave evolution in 1D〜5D to examine dimensional dependence of stable structure formation.
 
-Located in: [`TFT_Xray_Analysis/`](https://github.com/Soooma703/Totality_Field_Theory/tree/main/Black%20Hole%20X-ray%20FFT%20Analysis)
+- Random wave initialization
+- Interference peak tracking
+- Fractal analysis
+- Histogram outputs (volume, energy)
 
-This module performs the **definitive spectral validation** of the TFT by:
-
-- Simulating the nonlinear wave equation to derive ε and a
-- Applying TFT correction to observed black hole X-ray spectra
-- Comparing FFT power spectra between model and observation
-- Performing bootstrap confidence and phase-shift sensitivity tests
-
-Data is provided for:
-- Cygnus X-1
-- MAXI J1820+070
-- XTE J1550-564
-
-This fully reproduces Figures 2-5 of the paper.
+**Purpose**: Identify which dimensions allow self-sustaining particle-like formations.
 
 ---
 
-### 📂 2. Lambda Stability Scan
+## 📉 λ Stability Scanner (`lambda_calcurate.py`)
 
-Located in: [`TFT_Xray_LambdaScan/`](https://github.com/Soooma703/Totality_Field_Theory/tree/main/LambdaScan)
+Scans a range of λ values to determine at which point stable interference structures begin to appear.
 
-This module reproduces **Appendix A** of the paper by:
+- Evolves Ψ for each λ
+- Tracks internal energy fluctuation (δE)
+- Finds minimum δE as stability threshold
 
-- Scanning candidate values of λ
-- Running long-time field simulations to calculate total energy fluctuation
-- Determining the unique energy-stable self-interaction coefficient λ = 0.0860
-
-This provides the only first-principles prediction of λ without external fitting.
+**Purpose**: Estimate critical λ ≈ 0.57 where stability emerges.
 
 ---
 
-## 🔧 Requirements
+## 🧠 Detailed 3D Analysis (`detailed_analysis.py`)
 
-Each module contains its own requirements.txt.
+Runs a high-resolution 3D simulation at λ = 0.57 and performs detailed structure analysis.
 
-You will need:
-- Python ≥3.8
-- numpy, matplotlib, scipy, astropy, tqdm (depending on module)
+- Detects all interference peaks
+- Measures structure volume, amplitude, energy
+- Computes spatial distance between structures
+- Tracks largest structure trajectory
+
+**Purpose**: Quantify and visualize structure properties in 3D where TFT predicts maximal stability.
+
 
 ---
 
-## 📜 Notes
+## 📜 License
 
-We welcome feedback and collaborative proposals.  
-Please note that as I am currently a fourth-year undergraduate student prioritizing graduation and graduate school admission, I may not be able to respond to all inquiries. However, I sincerely appreciate any feedback or thoughts you may share.
-  
-If you use this code, please cite the original paper:
+MIT License — Free for research and educational use with attribution.
 
-> Ohno (2025). The Totality Field Theory: Unifying Spacetime and Observation without Time.
-
-We welcome questions, feedback, or collaborative proposals.  
-📧 Contact: [soma.ono3@gmail.com]  
-🐦 Follow on X (Twitter): [https://x.com/TFT_founder](https://x.com/TFT_founder)
-
+---
