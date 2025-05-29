@@ -47,5 +47,5 @@ Each script corresponds to a simulation in different spatial dimensions. They sh
 Each script is standalone and can be run with Python 3.8+:
 
 ```bash
+pip install numpy matplotlib scipy tqdm
 python 3D.py
-
