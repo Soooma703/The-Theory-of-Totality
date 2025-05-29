@@ -69,7 +69,7 @@ Each simulation run will:
 
 ---
 
-## 🧭 Interpretation within TFT
+## 📝 Interpretation within TFT
 
 According to **Totality Field Theory (TFT)**, persistent interference nodes are interpreted as **proto-particles** — localized, stable excitations of the existence field $\Psi(X, \Phi)$. These simulations aim to demonstrate that:
 
