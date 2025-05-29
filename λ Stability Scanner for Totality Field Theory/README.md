@@ -49,3 +49,12 @@ Make sure you have Python 3.8+ and the following libraries:
 pip install numpy matplotlib scipy tqdm numba
 python lambda_calcurate.py
 ```
+---
+
+## ⚙️ Parameter Configuration
+
+You can modify the range of λ values scanned by adjusting the following parameter in the script:
+
+```python
+lambda_range = (0, 3.5)
+```
