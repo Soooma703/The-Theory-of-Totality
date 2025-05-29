@@ -47,5 +47,5 @@ Make sure you have Python 3.8+ and the following libraries:
 
 ```bash
 pip install numpy matplotlib scipy tqdm numba
-
-
+python lambda_calcurate.py
+```
