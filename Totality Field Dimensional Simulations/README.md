@@ -14,7 +14,7 @@ This system mimics core principles of TFT, where **space, time, matter, and even
 
 ---
 
-## 🧠 Files Overview
+## 📁 Files Overview
 
 Each script corresponds to a simulation in different spatial dimensions. They share a common structure:
 
