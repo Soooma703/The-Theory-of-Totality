@@ -17,18 +17,6 @@ Simulates nonlinear wave evolution in 1D〜5D to examine dimensional dependence 
 
 ---
 
-## 📉 λ Stability Scanner (`lambda_calcurate.py`)
-
-Scans a range of λ values to determine at which point stable interference structures begin to appear.
-
-- Evolves Ψ for each λ
-- Tracks internal energy fluctuation (δE)
-- Finds minimum δE as stability threshold
-
-**Purpose**: Estimate critical λ ≈ 0.57 where stability emerges.
-
----
-
 ## 🧠 Detailed 3D Analysis (`detailed_analysis.py`)
 
 Runs a high-resolution 3D simulation at λ = 0.57 and performs detailed structure analysis.
